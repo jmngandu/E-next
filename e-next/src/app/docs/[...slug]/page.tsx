@@ -1,7 +1,7 @@
-export default function slug() {
+export default function Docs() {
   return (
     <>
-      <h1>slug</h1>
+      <h1>DOCS PAGE</h1>
     </>
   );
 }
