@@ -14,7 +14,10 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "(e) next",
+  title: {
+    default: "(e) next",
+    template: "%s | e next",
+  },
   description: "E NEXT",
 };
 
