@@ -1,4 +1,4 @@
 const Card = ({ children }: { children: React.ReactNode }) => {
-    const cardStyle=
+  const cardStyle = {};
   return <div style={cardStyle}>{children}</div>;
 };
