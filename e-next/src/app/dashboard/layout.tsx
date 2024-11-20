@@ -17,7 +17,7 @@ export default function DashboardLayout({
           <div>{analytics}</div>
           <div>{revenue}</div>
         </div>
-        <div style={{ display: "flex" }}>{notifications}</div>
+        <div style={{ display: "flex", flex: 1 }}>{notifications}</div>
       </div>
     </>
   );
