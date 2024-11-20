@@ -12,9 +12,13 @@ export default function DashboardLayout({
   return (
     <>
       <h1>{children}</h1>
-      <div>{analytics}</div>
-      <div>{revenue}</div>
-      <div>{notifications}</div>
+      <div style={{ display: "flex" }}>
+        <div style={{ display: "flex" }}>
+          <div>{analytics}</div>
+          <div>{revenue}</div>
+        </div>
+        <div>{notifications}</div>
+      </div>
     </>
   );
 }

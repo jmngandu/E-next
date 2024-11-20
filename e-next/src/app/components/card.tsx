@@ -10,3 +10,4 @@ const Card = ({ children }: { children: React.ReactNode }) => {
   };
   return <div style={cardStyle}>{children}</div>;
 };
+export default Card;

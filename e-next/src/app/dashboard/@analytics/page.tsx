@@ -1,7 +1,9 @@
+import Card from "@/app/components/card";
+
 export default function Dashboard() {
   return (
     <>
-      <h1>Analytics</h1>
+      <Card>Analytics</Card>
     </>
   );
 }
