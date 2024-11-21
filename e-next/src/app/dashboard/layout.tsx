@@ -24,21 +24,3 @@ export default function DashboardLayout({
     </>
   );
 }
-
-const letHe = ({
-  children,
-  analytics,
-  revenues,
-}: {
-  children: React.ReactNode;
-  analytics: React.ReactNode;
-  revenues: React.ReactNode;
-}) => {
-  return (
-    <>
-      <h1>{children}</h1>
-      <h2>{analytics}</h2>
-      <h2>{revenues}</h2>
-    </>
-  );
-};
