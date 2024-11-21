@@ -32,6 +32,7 @@ const letHe = ({
 }: {
   children: React.ReactNode;
   analytics: React.ReactNode;
+  revenues: React.ReactNode;
 }) => {
   return (
     <>
