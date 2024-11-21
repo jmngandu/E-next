@@ -1,3 +1,5 @@
+import React, { Children } from "react";
+
 export default function DashboardLayout({
   children,
   analytics,
@@ -22,3 +24,19 @@ export default function DashboardLayout({
     </>
   );
 }
+
+const letHe = ({
+  children,
+  analytics,
+  revenues,
+}: {
+  children: React.ReactNode;
+}) => {
+  return (
+    <>
+      <h1>{children}</h1>
+      <h2>{analytics}</h2>
+      <h2>{revenues}</h2>
+    </>
+  );
+};
