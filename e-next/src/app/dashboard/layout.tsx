@@ -31,6 +31,7 @@ const letHe = ({
   revenues,
 }: {
   children: React.ReactNode;
+  analytics: React.ReactNode;
 }) => {
   return (
     <>
